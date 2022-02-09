@@ -1,0 +1,9 @@
+.board {
+    border: 5x solid darkblue;
+    border-Radius: 10px;
+    width:'500px';
+    height: '500px';
+    margin: '0 auto';
+    display: 'grid';
+    grid-Template: 'repeate(3, 1fr) / repeat(3, 1fr)'; 
+}

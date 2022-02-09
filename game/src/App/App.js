@@ -1,16 +1,14 @@
 
 import './App.css';
-import Game from '../Game';
-import Board from '../Board';
-import Square from '../Square';
+import Game from '../Components/Game';
 
 function App() {
   return (
     <div className="App">
-      <p>Hello</p>
+      <p>Tic-Tac-Toe</p>
       <Game/>
-      <Board/>
-      <Square/>
+     
+      
 
     </div>
   );
