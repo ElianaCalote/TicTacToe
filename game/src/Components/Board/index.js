@@ -1,9 +1,10 @@
 import React from 'react';
 import Square from '../Square';
+import "./board.css"
 
 export default function Board ({squares, onClick}) {
     return(
-           <div>
+           <div className="game-board">
             <Square  value="1"  onClick={() => onClick(console.log("one"))}/>
             <Square  value="2"  onClick={() => onClick("dummy value")}/>
             <Square  value="3"  onClick={() => onClick("dummy value")}/>
