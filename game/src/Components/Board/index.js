@@ -6,7 +6,7 @@ export default function Board ({squares, onClick}) {
     return(
            <div className="game-board">
            {squares.map((square, i) => {
-               return <Square key={i} value={square} onClick={() => onClick((console.log("testing click")))} />
+               return <Square key={i} value={square} onClick={() => onClick()} />
            })}
            </div>
     )
